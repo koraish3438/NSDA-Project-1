@@ -6,17 +6,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/light_gray"
+    android:background="@color/white"
     android:paddingVertical="24dp"
     android:paddingHorizontal="12dp"
-    tools:context=".ui.main.MainActivity">
+    tools:context=".ProductActivity">
 
     <TextView
         android:id="@+id/topTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:text="@string/retrofit"
+        android:text="Retrofit"
         android:textColor="@color/black"
         android:textSize="34sp"
         android:textStyle="bold"
@@ -28,9 +28,9 @@
         android:id="@+id/refreshBtn"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:backgroundTint="@color/button_color"
-        android:contentDescription="@string/refresh_product_list"
-        android:src="@drawable/baseline_refresh_24"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:contentDescription="Refresh product activity"
+        android:src="@drawable/refresh"
         app:fabSize="auto"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -16,6 +16,8 @@ API Used:
 https://api.escuelajs.co/api/v1/products
 
 🔹 1️⃣ Project Structure (Final)
+
+===== Structure ======
 com.example.koraish_20_rest01
 │
 ├── api
